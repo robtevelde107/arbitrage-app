@@ -54,14 +54,14 @@ Goal
 Enhance the arbitrage sandbox application to support multiple exchange integrations, improved risk management, and a richer user interface that provides actionable insights.
 Constraints
 
-    Maintain existing sandbox safety features; no real trades are executed.
+    Maintain existing sandbox safety features; no real trades are executed unless the checkbox 'Start live trading' in the pwa is checked by the user.
     Use the existing Python backend and React frontend frameworks.
     Ensure APIs remain consistent; add new endpoints only when necessary.
     Commit changes after each major component is implemented.
 
 Deliverables
 
-    Exchange Integration: Add support for at least one additional cryptocurrency exchange (e.g., Binance). Implementation should modularly integrate with the existing CCXT-based architecture.
+    Exchange Integration: Add support for at least five additional cryptocurrency exchanges (e.g., Binance). Implementation should modularly integrate with the existing CCXT-based architecture.
     Risk Management Module: Implement a configurable risk management module that can simulate position sizing and maximum loss thresholds.
     Enhanced Dashboard: Update frontend dashboard to display summary metrics (profit/loss, open positions) and a new section for risk parameters.
     Reporting & Logging: Improve logging to include detailed trade simulation logs and error handling.
