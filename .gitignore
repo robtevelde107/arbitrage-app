@@ -1,0 +1,9 @@
+# Ignore environment files containing secrets and local settings
+.env
+
+# Node dependency directory (if used later)
+node_modules/
+
+# Python compiled files
+__pycache__/
+*.pyc
